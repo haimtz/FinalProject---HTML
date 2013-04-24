@@ -25,8 +25,6 @@
 .mainScreenDivs
 {
     position: relative;
-    float: right;
-    width: 49%;
     border: black 1px solid;
     margin: 3px;
     font-family: sans-serif;
@@ -35,6 +33,15 @@
 #menuDiv
 {
     text-align: right;
+    width: 20%;
+    float: right;
+}
+
+#mainScreen
+{
+    text-align: right;
+    width: 75%;
+    float: right;
 }
 
 ul
