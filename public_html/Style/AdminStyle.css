@@ -1,0 +1,49 @@
+.divAdminLogin
+{
+    position: fixed;
+    top: 30%;
+    bottom: 50%;
+    right: 40%;
+    left: 40%;
+    width: 300px;
+    height: 120px;
+    border: black 1px solid;
+    text-align: center;
+    
+    border-radius: 20px;
+}
+
+#outerDiv 
+{
+    position: fixed;
+    width: 1200px;
+    top: 70px;
+    bottom: 10%;
+    left: 30px;
+}
+
+.mainScreenDivs
+{
+    position: relative;
+    float: right;
+    width: 49%;
+    border: black 1px solid;
+    margin: 3px;
+    font-family: sans-serif;
+}
+
+#menuDiv
+{
+    text-align: right;
+}
+
+ul
+{
+    direction: rtl;
+    cursor: pointer;
+}
+input
+{
+    margin: 5px;
+}
+
