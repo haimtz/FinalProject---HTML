@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-td
+td.menuCell
 {
     border-left: black 1px solid;
     width: 120px;
@@ -61,3 +61,16 @@ input
     margin: 5px;
 }
 
+#firstMessages
+{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.columnTableFirstMessage
+{
+   text-align: center;
+   width: 70px;
+   border: black 1px solid;
+}
