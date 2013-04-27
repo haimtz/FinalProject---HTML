@@ -44,10 +44,17 @@
     float: right;
 }
 
-ul
+#menuTable
 {
     direction: rtl;
     cursor: pointer;
+    text-align: center;
+}
+
+td
+{
+    border-left: black 1px solid;
+    width: 120px;
 }
 input
 {
