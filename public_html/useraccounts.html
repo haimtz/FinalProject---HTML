@@ -16,8 +16,16 @@ and open the template in the editor.
                 margin: 20px;
             }
             
-            #tableUser, th, td
+            #tableUser
             {
+                border: black 1px solid;
+            }
+            
+            .tdUser
+            {
+                width: 130px;
+                text-align: center;
+                font-family: sans-serif;
                 border: black 1px solid;
             }
         </style>
@@ -38,24 +46,29 @@ and open the template in the editor.
     <center>
         <table id="tableUser">
             <tr>
-                <td>name</td>
-                <td>status</td>
-                <td>is Approved</td>
+                <td class="tdUser" >name</td>
+                 <td class="tdUser" >status</td>
+                 <td class="tdUser" >is Approved</td>
             </tr>
             <tr>
-                <td>User 1</td>
-                <td>Member</td>
-                <td><input type="checkbox" value="user1" ></td>
+                 <td class="tdUser" >User 1</td>
+                 <td class="tdUser" >Member</td>
+                 <td class="tdUser" ><input type="checkbox" value="user1" ></td>
             </tr>
             <tr>
-                <td>User 2</td>
-                <td>Member</td>
-                <td><input type="checkbox" value="user2" ></td>
+                 <td class="tdUser" >User 2</td>
+                 <td class="tdUser" >Member</td>
+                 <td class="tdUser" ><input type="checkbox" value="user2" ></td>
             </tr>
             <tr>
-                <td>User 3</td>
-                <td>Member</td>
-                <td><input type="checkbox" value="user3" ></td>
+                 <td class="tdUser" >User 3</td>
+                 <td class="tdUser" >Member</td>
+                 <td class="tdUser" ><input type="checkbox" value="user3" ></td>
+            </tr>
+            <tr>
+                <td class="tdUser" colspan="3">
+                    <input type="button" value="Apply users">
+                </td>
             </tr>
         </table>
     </center>
